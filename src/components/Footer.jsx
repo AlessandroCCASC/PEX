@@ -1,8 +1,4 @@
 import { React } from 'react'
-// import {
-// 	Bars3Icon,
-// 	XMarkIcon,
-// } from '@heroicons/react/24/outline'
 
 export function Footer() {
 

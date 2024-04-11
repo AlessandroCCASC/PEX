@@ -44,14 +44,14 @@ function Staff() {
 			</Typography>
 			<Carousel withoutArrows navigationColor="black">
 				<StaffItem
-					name="Nome Sobrenome"
-					description={"Descritivo das funções, quanto tempo na profissão etc"}
-					image={"/logo192.png"}
+					name="Tatiani Elias"
+					description={"Manicure, especialista em alongamento de unha e esmaltação em gel e estou sempre buscando me aperfeiçoar na área para trazer melhor atendimento e fazer você brilhar."}
+					image={"/Tati.png"}
 				/>
 				<StaffItem
-					name="Nome Sobrenome"
-					description={"Descritivo das funções, quanto tempo na profissão etc"}
-					image={"/logo192.png"}
+					name="Gizelly Schreder"
+					description={"Designer de Sobrancelhas. Tomei a decisão de trabalhar com o que realmente me realiza, gosto da ideia de transformar olhares, deixando você ainda mais realizada."}
+					image={"/Gizelly.png"}
 				/>
 			</Carousel>
 		</div>

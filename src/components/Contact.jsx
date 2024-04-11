@@ -3,7 +3,7 @@ import { React } from 'react'
 export function Contact() {
 
 	return (
-		<div className="max-w-md mx-auto overflow-hidden md:max-w-2xl lg:max-w-6xl py-16 px-4">
+		<div className="max-w-md mx-auto overflow-hidden md:max-w-2xl lg:max-w-6xl py-16 px-4 md:px-16">
 			<div className='md:flex flex-grow'>
 				<div className='md:shrink-0'>
 					<iframe className='h-48 md:h-64 lg:h-96 w-full object-cover md:w-64 lg:w-96 border-4 border-accent-100  rounded-3xl'

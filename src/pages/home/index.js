@@ -1,6 +1,7 @@
 import React from "react";
 import Toolbar from "../../components/Toolbar";
-import Carrousel from "../../components/Carroussel";
+import Services from "../../components/Services";
+import Staff from "../../components/Staff";
 import Info from "../../components/Info";
 import Contact from "../../components/Contact";
 import Footer from "../../components/Footer";
@@ -11,9 +12,9 @@ function MainPage() {
 	return (
 		<div>
 			<Toolbar />
-			<div><Carrousel /></div>
+			<Services/>
 			<Info />
-			<div>{"Nossa equipe"}</div>
+			<Staff />
 			<Contact />
 			<Footer />
 

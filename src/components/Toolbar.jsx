@@ -16,7 +16,7 @@ export function Toolbar() {
 						<span className="text-gray-900 text-xl font-semibold">TATY UNHAS & BELEZA</span>
 					</a>
 				</div>
-				<div className="flex lg:hidden">
+				<div className="flex md:hidden">
 					<button
 						type="button"
 						className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
@@ -26,7 +26,7 @@ export function Toolbar() {
 						<Bars3Icon className="h-6 w-6" aria-hidden="true" />
 					</button>
 				</div>
-				<Popover.Group className="hidden lg:flex lg:gap-x-12">
+				<Popover.Group className="hidden md:flex lg:gap-x-12">
 					<a href="#" className="text-lg text-gray-900">
 						Quem somos
 					</a>

@@ -15,8 +15,8 @@ export function Contact() {
 					<p className='block mt-1 md:text-md lg:text-lg leading-tight font-medium text-gray-900'>Estamos localizados na Rua João Manoel dos Santos, 86 - Itaum</p>
 					<p className='block mt-1 md:text-md lg:text-lg leading-tight font-medium text-gray-900'>Nossos contatos:</p>
 					<p className='block mt-1 font-medium text-gray-700'>(47) 98475-5297</p>
-					<p className='block mt-1 font-medium text-gray-700'>(47) 00000-0000</p>
-					<p className='block mt-1 font-medium text-gray-700'>taty-unhas-e-beleza@email.com</p>
+					<p className='block mt-1 font-medium text-gray-700'>(47) 98477-7997</p>
+					<p className='block mt-1 font-medium text-gray-700'>tatiunhasebeleza@outlook.com</p>
 				</div>
 			</div>
 		</div>

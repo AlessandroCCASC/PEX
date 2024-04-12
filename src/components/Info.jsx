@@ -11,7 +11,7 @@ export function Info() {
 				</div>
 				<div className='md:shrink-0'>
 					<img className='h-48 md:h-64 w-full object-cover md:w-64 border-4 rounded-3xl bg-gray-500'
-						src="/logo192.png"
+						src="/alongamento-de-unhas.png"
 					/>
 				</div>
 			</div>

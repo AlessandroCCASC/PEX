@@ -7,15 +7,15 @@ export function Footer() {
 			<div className="mx-auto max-w-7xl px-6 py-8 lg:px-8 lg:py-8">
 				<div className="flex flex-row itens-center justify-center gap-8">
 
-					<a href="#" className="-m-1.5 p-1.5">
+					<a href="https://www.instagram.com/tatyunhasebeleza/"  className="-m-1.5 p-1.5">
 						<span className="sr-only">Instagram</span>
 						<img className="h-4 w-auto" src="/instagram.svg" alt="" />
 					</a>
-					<a href="#" className="-m-1.5 p-1.5">
+					<a href="https://www.facebook.com/Tatyunhasebeleza" className="-m-1.5 p-1.5">
 						<span className="sr-only">Facebook</span>
 						<img className="h-4 w-auto" src="/facebook.svg" alt="" />
 					</a>
-					<a href="#" className="-m-1.5 p-1.5">
+					<a href="https://twitter.com/tatyunhasemgel" className="-m-1.5 p-1.5">
 						<span className="sr-only">Twitter</span>
 						<img className="h-4 w-auto" src="/twitter.svg" alt="" />
 					</a>

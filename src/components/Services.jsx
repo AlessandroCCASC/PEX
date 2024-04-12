@@ -34,16 +34,16 @@ function Services() {
 	return (
 		<Carousel navigationColor="white">
 			<ServicesItem
-				image={"/logo192.png"}
-				text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis sem eu metus lobortis egestas. "}
+				image={"/servico1.png"}
+				text={"Para você que deseja realizar seu alongamento de unhas e conquistar unhas perfeitas, você está lugar certo! Nosso salão está pronto para lhe proporcionar as tão sonhadas unhas em fibra."}
 			/>
 			<ServicesItem
-				image={"/logo192.png"}
-				text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis sem eu metus lobortis egestas. "}
+				image={"/servico2.png"}
+				text={"Descubra a verdadeira essência da beleza para suas mãos e pés no nosso salão de beleza! Apresentamos a você os serviços de manicure e pedicure que irão transformar suas unhas em verdadeiras obras de arte."}
 			/>
 			<ServicesItem
-				image={"/logo192.png"}
-				text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis sem eu metus lobortis egestas. "}
+				image={"/servico3.png"}
+				text={"Em nosso espaço você tambem encontra o serviço de Desing de sombrancelhas. Tenha a sobrancelha que sempre sonhou! Deixe suas sobrancelhas em harmonia com seu rosto."}
 			/>
 		</Carousel>
 	);

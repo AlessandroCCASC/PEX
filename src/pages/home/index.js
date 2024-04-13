@@ -12,7 +12,7 @@ function MainPage() {
 	return (
 		<div>
 			<Toolbar />
-			<Services/>
+			<Services />
 			<Info />
 			<Staff />
 			<Contact />

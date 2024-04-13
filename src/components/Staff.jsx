@@ -35,26 +35,28 @@ StaffItem.propTypes = {
 
 function Staff() {
 	return (
-		<div className="h-full max-h-96">
-			<Typography
-				variant="h4"
-				className="text-gray-900 text-center mt-5"
-			>
-				{"Conheça nossa equipe"}
-			</Typography>
-			<Carousel withoutArrows navigationColor="black">
-				<StaffItem
-					name="Tatiani Elias"
-					description={"Manicure, especialista em alongamento de unha e esmaltação em gel e estou sempre buscando me aperfeiçoar na área para trazer melhor atendimento e fazer você brilhar."}
-					image={"/Tati.png"}
-				/>
-				<StaffItem
-					name="Gizelly Schreder"
-					description={"Designer de Sobrancelhas. Tomei a decisão de trabalhar com o que realmente me realiza, gosto da ideia de transformar olhares, deixando você ainda mais realizada."}
-					image={"/Gizelly.png"}
-				/>
-			</Carousel>
-		</div>
+		<section id="staff">
+			<div className="h-full max-h-96">
+				<Typography
+					variant="h4"
+					className="text-gray-900 text-center mt-5"
+				>
+					{"Conheça nossa equipe"}
+				</Typography>
+				<Carousel withoutArrows navigationColor="black">
+					<StaffItem
+						name="Tatiani Elias"
+						description={"Manicure, especialista em alongamento de unha e esmaltação em gel e estou sempre buscando me aperfeiçoar na área para trazer melhor atendimento e fazer você brilhar."}
+						image={"/Tati.png"}
+					/>
+					<StaffItem
+						name="Gizelly Schreder"
+						description={"Designer de Sobrancelhas. Tomei a decisão de trabalhar com o que realmente me realiza, gosto da ideia de transformar olhares, deixando você ainda mais realizada."}
+						image={"/Gizelly.png"}
+					/>
+				</Carousel>
+			</div>
+		</section>
 	);
 }
 

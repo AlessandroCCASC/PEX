@@ -4,6 +4,7 @@ import {
 	Bars3Icon,
 	XMarkIcon,
 } from '@heroicons/react/24/outline'
+import { Link } from "react-scroll";
 
 export function Toolbar() {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -27,15 +28,36 @@ export function Toolbar() {
 					</button>
 				</div>
 				<Popover.Group className="hidden md:flex lg:gap-x-12">
-					<a href="#" className="text-lg text-gray-900">
+					<Link
+						activeClass="active"
+						to="who-we-are"
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={500}
+						className="text-lg text-gray-900">
 						Quem somos
-					</a>
-					<a href="#" className="text-lg text-gray-900">
+					</Link>
+					<Link
+						activeClass="active"
+						to="staff"
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={500}
+						className="text-lg text-gray-900">
 						Equipe
-					</a>
-					<a href="#" className="text-lg text-gray-900">
+					</Link>
+					<Link
+						activeClass="active"
+						to="contact"
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={500}
+						className="text-lg text-gray-900">
 						Contato
-					</a>
+					</Link>
 				</Popover.Group>
 			</nav>
 			<Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -56,21 +78,36 @@ export function Toolbar() {
 					<div className="mt-6 flow-root">
 						<div className="-my-6 divide-y divide-gray-500/10">
 							<div className="space-y-2 px-6">
-								<a
-									href="#"
+								<Link
+									activeClass="active"
+									to="who-we-are"
+									spy={true}
+									smooth={true}
+									offset={-70}
+									duration={500}
 									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" >
 									Quem somos
-								</a>
-								<a
-									href="#"
+								</Link>
+								<Link
+									activeClass="active"
+									to="staff"
+									spy={true}
+									smooth={true}
+									offset={-70}
+									duration={500}
 									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" >
 									Equipe
-								</a>
-								<a
-									href="#"
+								</Link>
+								<Link
+									activeClass="active"
+									to="contact"
+									spy={true}
+									smooth={true}
+									offset={-70}
+									duration={500}
 									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-500">
 									Contato
-								</a>
+								</Link>
 							</div>
 						</div>
 					</div>

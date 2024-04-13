@@ -10,7 +10,7 @@ function StaffItem({ image, name, description }) {
 				<div className="sm:shrink-0 flex flex-grow items-center justify-center">
 					<Avatar src={image} size="xxl" className="border-4 border-accent-100" />
 				</div>
-				<div className="m-5">
+				<div className="m-5 max-w-5xl">
 					<Typography
 						variant="lead"
 						color="black"
@@ -38,7 +38,7 @@ StaffItem.propTypes = {
 function Staff() {
 	return (
 		<section id="staff">
-			<div className="h-full bg-red-50">
+			<div className="h-full">
 				<Typography
 					variant="h4"
 					className="text-gray-900 text-center pt-8"

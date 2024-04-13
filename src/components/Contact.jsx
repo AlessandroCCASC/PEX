@@ -15,9 +15,9 @@ export function Contact() {
 					<div className='p-8'>
 						<p className='block mt-1 md:text-md lg:text-lg leading-tight font-medium text-gray-900'>Estamos localizados na Rua João Manoel dos Santos, 86 - Itaum</p>
 						<p className='block mt-1 md:text-md lg:text-lg leading-tight font-medium text-gray-900'>Nossos contatos:</p>
-						<p className='block mt-1 font-medium text-gray-700'>(47) 98475-5297</p>
-						<p className='block mt-1 font-medium text-gray-700'>(47) 98477-7997</p>
-						<p className='block mt-1 font-medium text-gray-700'>tatiunhasebeleza@outlook.com</p>
+						<a href='tel:47984755297' className='block mt-1 font-medium text-gray-700'>(47) 98475-5297</a>
+						<a href='tel:47984777997' className='block mt-1 font-medium text-gray-700'>(47) 98477-7997</a>
+						<a href='mailto:tatiunhasebeleza@outlook.com?subject=&body=' className='block mt-1 font-medium text-gray-700'>tatiunhasebeleza@outlook.com</a>
 					</div>
 				</div>
 			</div>

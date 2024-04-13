@@ -12,9 +12,7 @@ function CarouselBaseNavigation({ setActiveIndex, activeIndex, navigationColor, 
 			{new Array(length).fill("").map((_, i) => (
 				<span
 					key={i}
-					className={`block h-3 w-3 cursor-pointer rounded-full transition-colors content-[''] ${
-						activeIndex === i ? `bg-${navigationColor}` : `bg-${navigationColor}/50`
-					}`}
+					className={`block h-3 w-3 cursor-pointer rounded-full transition-colors bg-${navigationColor} ${activeIndex !== i ? 'opacity-50' : ''}`}
 					onClick={() => setActiveIndex(i)}
 				/>
 			))}
@@ -41,7 +39,7 @@ NextArrow.propTypes = {
 	navigationColor: PropTypes.string
 };
 
-function PrevArrow({ handlePrev, navigationColor  }) {
+function PrevArrow({ handlePrev, navigationColor }) {
 	return (
 		<IconButton
 			variant="text"

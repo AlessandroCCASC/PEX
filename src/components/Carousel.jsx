@@ -8,7 +8,7 @@ import {
 
 function CarouselBaseNavigation({ setActiveIndex, activeIndex, navigationColor, length }) {
 	return (
-		<div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
+		<div className="absolute bottom-4 left-2/4 flex gap-2">
 			{new Array(length).fill("").map((_, i) => (
 				<span
 					key={i}
@@ -84,11 +84,10 @@ function CarouselBase({ children, withoutArrows, navigationColor }) {
 
 	return (
 		<Carousel
-			className="h-full max-h-96"
+			className="h-full"
 			navigation={navigation}
 			nextArrow={nextArrow}
-			prevArrow={prevArrow}
-		>
+			prevArrow={prevArrow}>
 			{children}
 		</Carousel>
 	);

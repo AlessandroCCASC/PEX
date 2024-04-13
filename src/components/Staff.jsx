@@ -5,23 +5,25 @@ import { Avatar, Typography } from "@material-tailwind/react";
 
 function StaffItem({ image, name, description }) {
 	return (
-		<div className="relative h-full w-full flex items-center justify-center py-16 px-8">
-			<Avatar src={image} size="xxl" />
-			<div className="ml-5">
-				<Typography
-					variant="lead"
-					color="black"
-					className="mb-1 text-gray-700"
-				>
-					{name}
-				</Typography>
-				<Typography
-					variant="lead"
-					color="black"
-					className="mb-1 text-gray-700"
-				>
-					{description}
-				</Typography>
+		<div className="flex flex-grow items-center justify-center overflow-hidden  w-full  py-8 px-8">
+			<div className='md:flex'>
+				<div className="sm:shrink-0 flex flex-grow items-center justify-center">
+					<Avatar src={image} size="xxl" className="border-4 border-accent-100" />
+				</div>
+				<div className="m-5">
+					<Typography
+						variant="lead"
+						color="black"
+						className="mb-1 text-gray-900 font-semibold">
+						{name}
+					</Typography>
+					<Typography
+						variant="lead"
+						color="black"
+						className="mb-1 text-gray-700 justify-center">
+						{description}
+					</Typography>
+				</div>
 			</div>
 		</div>
 	);
@@ -36,10 +38,10 @@ StaffItem.propTypes = {
 function Staff() {
 	return (
 		<section id="staff">
-			<div className="h-full max-h-96">
+			<div className="h-full bg-red-50">
 				<Typography
 					variant="h4"
-					className="text-gray-900 text-center mt-5"
+					className="text-gray-900 text-center pt-8"
 				>
 					{"Conheça nossa equipe"}
 				</Typography>

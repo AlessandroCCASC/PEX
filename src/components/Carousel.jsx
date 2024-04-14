@@ -8,7 +8,7 @@ import {
 
 function CarouselBaseNavigation({ setActiveIndex, activeIndex, navigationColor, length }) {
 	return (
-		<div className="absolute bottom-4 left-2/4 flex gap-2">
+		<div className="absolute bottom-2 flex gap-2 w-full justify-center">
 			{new Array(length).fill("").map((_, i) => (
 				<span
 					key={i}
@@ -27,7 +27,7 @@ function NextArrow({ handleNext, navigationColor }) {
 			color={navigationColor}
 			size="lg"
 			onClick={handleNext}
-			className="!absolute top-2/4 !right-4 -translate-y-2/4"
+			className="!absolute top-2/4 !right-1 -translate-y-2/4"
 		>
 			<ChevronRightIcon className="h-6 w-6" />
 		</IconButton>
@@ -46,7 +46,7 @@ function PrevArrow({ handlePrev, navigationColor }) {
 			color={navigationColor}
 			size="lg"
 			onClick={handlePrev}
-			className="!absolute top-2/4 left-4 -translate-y-2/4"
+			className="!absolute top-2/4 left-1 -translate-y-2/4"
 		>
 			<ChevronLeftIcon className="h-6 w-6" />
 		</IconButton>

@@ -5,17 +5,17 @@ import { Typography } from "@material-tailwind/react";
 
 function ServicesItem({ image, text }) {
 	return (
-		<div className="relative h-full w-full">
+		<div className="relative h-full w-full overflow-hidden">
 			<img
 				src={image}
 				className="max-h-96 w-full object-cover"
 			/>
 			<div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
-				<div className="w-3/4 text-center md:w-2/4">
+				<div className="w-3/4 text-center md:w-2/4 mt-4">
 					<Typography
-						variant="lead"
+						variant="paragraph"
 						color="white"
-						className="mb-12 opacity-80"
+						className="mb-12 opacity-80 md:text-xl"
 					>
 						{text}
 					</Typography>
@@ -34,15 +34,15 @@ function Services() {
 	return (
 		<Carousel navigationColor="white">
 			<ServicesItem
-				image={"/servico1.png"}
+				image={"/servico1.webp"}
 				text={"Para você que deseja realizar seu alongamento de unhas e conquistar unhas perfeitas, você está lugar certo! Nosso salão está pronto para lhe proporcionar as tão sonhadas unhas em fibra."}
 			/>
 			<ServicesItem
-				image={"/servico2.png"}
+				image={"/servico2.webp"}
 				text={"Descubra a verdadeira essência da beleza para suas mãos e pés no nosso salão de beleza! Apresentamos a você os serviços de manicure e pedicure que irão transformar suas unhas em verdadeiras obras de arte."}
 			/>
 			<ServicesItem
-				image={"/servico3.png"}
+				image={"/servico3.webp"}
 				text={"Em nosso espaço você tambem encontra o serviço de Desing de sombrancelhas. Tenha a sobrancelha que sempre sonhou! Deixe suas sobrancelhas em harmonia com seu rosto."}
 			/>
 		</Carousel>

@@ -36,7 +36,7 @@ export function Toolbar() {
 						offset={-70}
 						duration={500}
 						className="text-lg text-gray-900">
-						Quem somos
+						<a href='#'>Quem somos</a>
 					</Link>
 					<Link
 						activeClass="active"
@@ -46,7 +46,7 @@ export function Toolbar() {
 						offset={-70}
 						duration={500}
 						className="text-lg text-gray-900">
-						Equipe
+						<a href='#'>Equipe</a>
 					</Link>
 					<Link
 						activeClass="active"
@@ -56,7 +56,7 @@ export function Toolbar() {
 						offset={-70}
 						duration={500}
 						className="text-lg text-gray-900">
-						Contato
+						<a href='#'>Contato</a>
 					</Link>
 				</Popover.Group>
 			</nav>
@@ -86,7 +86,7 @@ export function Toolbar() {
 									offset={-70}
 									duration={500}
 									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" >
-									Quem somos
+									<a href='#'>Quem somos</a>
 								</Link>
 								<Link
 									activeClass="active"
@@ -96,7 +96,7 @@ export function Toolbar() {
 									offset={-70}
 									duration={500}
 									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" >
-									Equipe
+									<a href='#'>Equipe</a>
 								</Link>
 								<Link
 									activeClass="active"
@@ -106,7 +106,7 @@ export function Toolbar() {
 									offset={-70}
 									duration={500}
 									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-500">
-									Contato
+									<a href='#'>Contato</a>
 								</Link>
 							</div>
 						</div>
